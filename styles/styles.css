@@ -1,11 +1,12 @@
 /* common shared style */
+
 body{
     font-family: 'Lato', sans-serif;
 }
 
 /* header styles section */
 
-.website-title{
+.website-title, .Third-section{
     color: #272727;
     margin-left: 80px;
     margin-right: 96px;
@@ -16,7 +17,7 @@ body{
     width: 635px;
     height: 800px;
 }
-.header{
+.header, .Third-section{
     display: flex;
     align-items: center;
     background-color: rgba(229, 84, 115, 0.10);
@@ -34,6 +35,59 @@ body{
     font-weight: 700;
     border-radius: 8px;
     background: #E55473;
+}
+
+
+/* First section */
+
+.second-section{
+    text-align: center;
+}
+.second-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.second-p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    padding-left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.second-title-picture{
+    display: flex;
+}
+
+/* second section */
+.center{
+    display: block;
+}
+
+/* Third section */
+.off-color{
+    color: #E55473; 
+}
+.fourth-section{
+    display: flex;
+    align-items: center;
+}
+
+/* fourth secotion  */
+.inst{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.inst-p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 12px;
+}
+.inst-picture{
+    gap: 14px;
 }
 
 /* footer related style  */
