@@ -59,15 +59,40 @@ body{
 .second-title-picture{
     display: flex;
 }
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
 
 /* second section */
 .center{
     display: block;
 }
+.six-num-flower{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 350px;
+    height: 350px;
+}
+.five-num-flower{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(22, 164, 172, 0.15);
+    width: 350px;
+    height: 350px;
+}
+.sev-num-flower{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 350px;
+    height: 350px;
+}
 
 /* Third section */
 .off-color{
-    color: #E55473; 
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
 }
 .fourth-section{
     display: flex;
@@ -86,8 +111,39 @@ body{
     text-align: center;
     font-size: 12px;
 }
+.insta-container{
+    margin-bottom: 50px;
+}
 .inst-picture{
-    gap: 14px;
+    display: flex;
+    
+}
+.deals-title{
+    
+}
+.deals-container{
+    background-image: url('../imges/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 449px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.coupon{
+    color: rgba(39, 39, 39, 0.60);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.email-deals{
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    width: 700px;
+    height: 64px;
+    
 }
 
 /* footer related style  */
